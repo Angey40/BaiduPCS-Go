@@ -3,9 +3,8 @@
 *.dll
 *.so
 *.dylib
-baidupcs_go
 BaiduPCS-Go
-httpserver
+cmd/AndroidNDKBuild/AndroidNDKBuild
 
 # Test binary, build with `go test -c`
 *.test
@@ -13,13 +12,21 @@ httpserver
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 out/
-*.json
 *.dl
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
-# others
-.Ds_Store
+# Others
+.DS_Store
+*.proc
 *.txt
+*.log
+captcha.png
+pcs_config.json
+test/
 download/
+*-downloading
+
+# GoLand
+.idea/
