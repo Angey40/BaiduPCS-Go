@@ -28,6 +28,8 @@ type PCSConfig struct {
 
 // Init 初始化配置
 func Init() {
+}
+func init() {
 	// 检查配置
 	cfg, err := loadConfig()
 	if err != nil {
